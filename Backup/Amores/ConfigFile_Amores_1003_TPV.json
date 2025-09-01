@@ -1,0 +1,327 @@
+{
+    "system_options": [
+        "TPV",
+        "Entrada"
+    ],
+    "system_to_load": 0,
+    "general": {
+        "informacion_estacionamiento": {
+            "nombre_estacionamiento": "Amores 1003",
+            "email": "amores1003@pasesa.com.mx",
+            "password": "gaX2u/zHjvAhJlHeIEVFEw==",
+            "iv": "2a6c36050cf024bccc11ab2819253b25",
+            "cantidad_cajones": 200,
+            "nombre_entrada": "TPV"
+        },
+        "imagenes": {
+            "path_logo": "./Public/Img/LOGO.jpg",
+            "path_logo_boleto": "./Public/Img/imagen_datos.jpg",
+            "path_marcas_auto": "./Public/Img/AutoA.png",
+            "default_image": "./Public/Img/none_image.jpg",
+            "plantilla": "./Public/Img/plantilla.jpg",
+            "config_icon": "./Public/Img/config_icon.png",
+            "users_icon": "./Public/Img/users_icon.png",
+            "hide_password_icon": "./Public/Img/hide_password_icon.png",
+            "show_password_icon": "./Public/Img/show_password_icon.png",
+            "plus_icon": "./Public/Img/plus_icon.png",
+            "minus_icon": "./Public/Img/minus_icon.png"
+        },
+        "configuracion_sistema": {
+            "impresora": {
+                "idVendor": "04b8",
+                "idProduct": "0e15"
+            },
+            "formatos_fecha": [
+                "%Y-%m-%d %H:%M:%S",
+                "%Y-%m-%d %H:%M",
+                "%Y-%m-%d %I:%M:%S",
+                "%Y-%m-%d %I:%M",
+                "%Y/%m/%d %I:%M:%S",
+                "%Y/%m/%d %I:%M",
+                "%Y/%m/%d %H:%M:%S",
+                "%Y/%m/%d %H:%M",
+                "%m/%d/%Y %I:%M:%S",
+                "%m/%d/%Y %I:%M",
+                "%d-%m-%Y %H:%M:%S",
+                "%d-%m-%Y %H:%M",
+                "%d/%m/%Y %H:%M:%S",
+                "%d/%m/%Y %H:%M",
+                "%d-%b-%Y %H:%M:%S",
+                "%d-%b-%Y %H:%M",
+                "%A, %d %B %Y %H:%M:%S",
+                "%A, %d %B %Y %H:%M",
+                "%A, %d %b %Y %H:%M:%S",
+                "%A, %d %b %Y %H:%M",
+                "%b %d, %Y %I:%M:%S",
+                "%b %d, %Y %I:%M",
+                "%B %d, %Y %I:%M:%S",
+                "%B %d, %Y %I:%M",
+                "%B %d %I:%M:%S",
+                "%B %d %I:%M",
+                "%B %d %H:%M:%S",
+                "%B %d %H:%M"
+            ],
+            "security": {
+                "a": "t59Adb4GhD0jek8jQj/yww==",
+                "p": "bee13ddafc3df6140263b41f36761b05"
+            },
+            "sizes_font": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25
+            ],
+            "size_text_font": 11,
+            "size_text_button_font": 11,
+            "size_text_font_subtittle_system": 12,
+            "size_text_font_tittle_system": 12,
+            "formato_hora_interface": 0,
+            "formato_hora_boleto": 0,
+            "formato_hora_reloj_expedidor_boleto": 14,
+            "fuente": "Arial",
+            "color_botones_interface": "#062546",
+            "color_letra_botones_interface": "#ffffff",
+            "color_boton_cobro": "#ff0000",
+            "color_letra_boton_cobro": "#000000",
+            "requiere_placa": true,
+            "penalizacion_boleto_perdido": false,
+            "reloj": false,
+            "envio_informacion": true,
+            "pantalla_completa": true,
+            "imprime_contra_parabrisas": true,
+            "imprime_contra_localizacion": false,
+            "solicita_datos_del_auto": false,
+            "habilita_impresion_boleto_perdido": false,
+            "size_font_boleto": 1,
+            "size_font_contra_parabrisas": 2,
+            "size_font_contra_localizacion": 1
+        },
+        "configuracion_pensionados": {
+            "password": "tg3dmf+KBonMlTDIZXKHHA==",
+            "iv": "dd02c71caf8115cc5a6be7806d6989b1",
+            "costo_tarjeta": 0,
+            "costo_reposicion_tarjeta": 0,
+            "penalizacion_diaria": 0
+        },
+        "configuiracion_envio": {
+            "destinatario_DB": "enviocorreospasesa@outlook.com",
+            "destinatario_corte": [
+                "ingresos@pasesa.com.mx"
+            ],
+            "destinatario_notificaciones": [
+                "ingresos@pasesa.com.mx"
+            ]
+        },
+        "configuiracion_reloj": {
+            "color_primera_hora": "#062546",
+            "color_hora_completa": "#062546",
+            "color_1_fraccion": "#b9d8f9",
+            "color_2_fraccion": "#5ba3f1",
+            "color_3_fraccion": "#1270d3",
+            "color_alerta": "#ff0000"
+        }
+    },
+    "tarifa": {
+        "tarifa_boleto_perdido": 250,
+        "tipo_tarifa_sistema": false,
+        "tarifa_simple": {
+            "inicio_cobro_fraccion": 2,
+            "tarifa_1_fraccion": 5,
+            "tarifa_2_fraccion": 10,
+            "tarifa_3_fraccion": 15,
+            "tarifa_hora": 20
+        },
+        "tarifa_personalizada": {
+            "0": {
+                "hora": 28,
+                "1": 28,
+                "2": 28,
+                "3": 28
+            },
+            "1": {
+                "hora": 28,
+                "1": 35,
+                "2": 42,
+                "3": 49
+            },
+            "2": {
+                "hora": 56,
+                "1": 63,
+                "2": 70,
+                "3": 77
+            },
+            "3": {
+                "hora": 80,
+                "1": 80,
+                "2": 80,
+                "3": 80
+            },
+            "4": {
+                "hora": 80,
+                "1": 80,
+                "2": 80,
+                "3": 80
+            },
+            "5": {
+                "hora": 80,
+                "1": 80,
+                "2": 80,
+                "3": 80
+            },
+            "6": {
+                "hora": 80,
+                "1": 80,
+                "2": 80,
+                "3": 80
+            },
+            "7": {
+                "hora": 80,
+                "1": 80,
+                "2": 80,
+                "3": 80
+            },
+            "8": {
+                "hora": 80,
+                "1": 80,
+                "2": 80,
+                "3": 80
+            },
+            "9": {
+                "hora": 80,
+                "1": 80,
+                "2": 80,
+                "3": 80
+            },
+            "10": {
+                "hora": 80,
+                "1": 80,
+                "2": 80,
+                "3": 80
+            },
+            "11": {
+                "hora": 80,
+                "1": 80,
+                "2": 80,
+                "3": 80
+            },
+            "12": {
+                "hora": 80,
+                "1": 87,
+                "2": 94,
+                "3": 101
+            },
+            "13": {
+                "hora": 108,
+                "1": 115,
+                "2": 122,
+                "3": 129
+            },
+            "14": {
+                "hora": 136,
+                "1": 143,
+                "2": 150,
+                "3": 157
+            },
+            "15": {
+                "hora": 160,
+                "1": 160,
+                "2": 160,
+                "3": 160
+            },
+            "16": {
+                "hora": 160,
+                "1": 160,
+                "2": 160,
+                "3": 160
+            },
+            "17": {
+                "hora": 160,
+                "1": 160,
+                "2": 160,
+                "3": 160
+            },
+            "18": {
+                "hora": 160,
+                "1": 160,
+                "2": 160,
+                "3": 160
+            },
+            "19": {
+                "hora": 160,
+                "1": 160,
+                "2": 160,
+                "3": 160
+            },
+            "20": {
+                "hora": 160,
+                "1": 160,
+                "2": 160,
+                "3": 160
+            },
+            "21": {
+                "hora": 160,
+                "1": 160,
+                "2": 160,
+                "3": 160
+            },
+            "22": {
+                "hora": 160,
+                "1": 160,
+                "2": 160,
+                "3": 160
+            },
+            "23": {
+                "hora": 160,
+                "1": 160,
+                "2": 160,
+                "3": 160
+            },
+            "24": {
+                "hora": 160,
+                "1": 160,
+                "2": 160,
+                "3": 160
+            }
+        }
+    },
+    "promociones": {},
+    "funcionamiento_interno": {
+        "panel_configuracion": {
+            "usuario": "admin",
+            "contraseña": "LwbDZRgOoFZ+NRBoHo6H3g==",
+            "iv": "5470c7b9ee19098c7839029b2ff31e83"
+        },
+        "panel_usuarios": {
+            "usuario": "admin",
+            "contraseña": "LwbDZRgOoFZ+NRBoHo6H3g==",
+            "iv": "5470c7b9ee19098c7839029b2ff31e83"
+        },
+        "db": {
+            "usuario": "root",
+            "password": "YQVQ0D+TCSFDITS9jCLPJA==",
+            "iv": "8da15b7ec1e3dd3cc07fb4c7d158c33a",
+            "host": "localhost",
+            "db": "Parqueadero1"
+        }
+    }
+}

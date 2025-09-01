@@ -1,0 +1,684 @@
+{
+    "system_options": [
+        "TPV",
+        "Entrada"
+    ],
+    "system_to_load": 0,
+    "general": {
+        "informacion_estacionamiento": {
+            "nombre_estacionamiento": "Durango 205",
+            "email": "durango205@pasesa.com.mx",
+            "password": "SLDENOuCYX0eOTDsLrDeXA==",
+            "iv": "21ae80418d11423beb878fb2316beb6b",
+            "cantidad_cajones": 200,
+            "nombre_entrada": "TPV"
+        },
+        "imagenes": {
+            "path_logo": "./Public/Img/LOGO.jpg",
+            "path_logo_boleto": "./Public/Img/imagen_datos.jpg",
+            "path_marcas_auto": "./Public/Img/AutoA.png",
+            "default_image": "./Public/Img/none_image.jpg",
+            "plantilla": "./Public/Img/plantilla.jpg",
+            "config_icon": "./Public/Img/config_icon.png",
+            "users_icon": "./Public/Img/users_icon.png",
+            "hide_password_icon": "./Public/Img/hide_password_icon.png",
+            "show_password_icon": "./Public/Img/show_password_icon.png",
+            "plus_icon": "./Public/Img/plus_icon.png",
+            "minus_icon": "./Public/Img/minus_icon.png"
+        },
+        "configuracion_sistema": {
+            "impresora": {
+                "idVendor": "04b8",
+                "idProduct": "0202"
+            },
+            "formatos_fecha": [
+                "%Y-%m-%d %H:%M:%S",
+                "%Y-%m-%d %H:%M",
+                "%Y-%m-%d %I:%M:%S",
+                "%Y-%m-%d %I:%M",
+                "%Y/%m/%d %I:%M:%S",
+                "%Y/%m/%d %I:%M",
+                "%Y/%m/%d %H:%M:%S",
+                "%Y/%m/%d %H:%M",
+                "%m/%d/%Y %I:%M:%S",
+                "%m/%d/%Y %I:%M",
+                "%d-%m-%Y %H:%M:%S",
+                "%d-%m-%Y %H:%M",
+                "%d/%m/%Y %H:%M:%S",
+                "%d/%m/%Y %H:%M",
+                "%d-%b-%Y %H:%M:%S",
+                "%d-%b-%Y %H:%M",
+                "%A, %d %B %Y %H:%M:%S",
+                "%A, %d %B %Y %H:%M",
+                "%A, %d %b %Y %H:%M:%S",
+                "%A, %d %b %Y %H:%M",
+                "%b %d, %Y %I:%M:%S",
+                "%b %d, %Y %I:%M",
+                "%B %d, %Y %I:%M:%S",
+                "%B %d, %Y %I:%M",
+                "%B %d %I:%M:%S",
+                "%B %d %I:%M",
+                "%B %d %H:%M:%S",
+                "%B %d %H:%M"
+            ],
+            "security": {
+                "a": "t59Adb4GhD0jek8jQj/yww==",
+                "p": "bee13ddafc3df6140263b41f36761b05"
+            },
+            "sizes_font": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25
+            ],
+            "size_text_font": 11,
+            "size_text_button_font": 11,
+            "size_text_font_subtittle_system": 12,
+            "size_text_font_tittle_system": 12,
+            "formato_hora_interface": 0,
+            "formato_hora_boleto": 0,
+            "formato_hora_reloj_expedidor_boleto": 14,
+            "fuente": "Arial",
+            "color_botones_interface": "#062546",
+            "color_letra_botones_interface": "#ffffff",
+            "color_boton_cobro": "#ff0000",
+            "color_letra_boton_cobro": "#000000",
+            "requiere_placa": true,
+            "penalizacion_boleto_perdido": false,
+            "reloj": false,
+            "envio_informacion": true,
+            "pantalla_completa": true,
+            "imprime_contra_parabrisas": true,
+            "imprime_contra_localizacion": false,
+            "solicita_datos_del_auto": false,
+            "habilita_impresion_boleto_perdido": false,
+            "size_font_boleto": 1,
+            "size_font_contra_parabrisas": 2,
+            "size_font_contra_localizacion": 1
+        },
+        "configuracion_pensionados": {
+            "password": "tg3dmf+KBonMlTDIZXKHHA==",
+            "iv": "dd02c71caf8115cc5a6be7806d6989b1",
+            "costo_tarjeta": 0,
+            "costo_reposicion_tarjeta": 0,
+            "penalizacion_diaria": 0
+        },
+        "configuiracion_envio": {
+            "destinatario_DB": "enviocorreospasesa@outlook.com",
+            "destinatario_corte": [
+                "ingresos@pasesa.com.mx"
+            ],
+            "destinatario_notificaciones": [
+                "ingresos@pasesa.com.mx"
+            ]
+        },
+        "configuiracion_reloj": {
+            "color_primera_hora": "#062546",
+            "color_hora_completa": "#062546",
+            "color_1_fraccion": "#b9d8f9",
+            "color_2_fraccion": "#5ba3f1",
+            "color_3_fraccion": "#1270d3",
+            "color_alerta": "#ff0000"
+        }
+    },
+    "tarifa": {
+        "tarifa_boleto_perdido": 200,
+        "tipo_tarifa_sistema": true,
+        "tarifa_simple": {
+            "inicio_cobro_fraccion": 2,
+            "tarifa_1_fraccion": 8,
+            "tarifa_2_fraccion": 16,
+            "tarifa_3_fraccion": 23,
+            "tarifa_hora": 30
+        },
+        "tarifa_personalizada": {
+            "0": {
+                "hora": 30,
+                "1": 30,
+                "2": 30,
+                "3": 30
+            },
+            "1": {
+                "hora": 30,
+                "1": 38,
+                "2": 46,
+                "3": 53
+            },
+            "2": {
+                "hora": 60,
+                "1": 68,
+                "2": 76,
+                "3": 83
+            },
+            "3": {
+                "hora": 90,
+                "1": 98,
+                "2": 106,
+                "3": 113
+            },
+            "4": {
+                "hora": 120,
+                "1": 128,
+                "2": 136,
+                "3": 143
+            },
+            "5": {
+                "hora": 150,
+                "1": 158,
+                "2": 166,
+                "3": 173
+            },
+            "6": {
+                "hora": 180,
+                "1": 188,
+                "2": 196,
+                "3": 203
+            },
+            "7": {
+                "hora": 210,
+                "1": 218,
+                "2": 226,
+                "3": 233
+            },
+            "8": {
+                "hora": 240,
+                "1": 248,
+                "2": 256,
+                "3": 263
+            },
+            "9": {
+                "hora": 270,
+                "1": 278,
+                "2": 286,
+                "3": 293
+            },
+            "10": {
+                "hora": 300,
+                "1": 308,
+                "2": 316,
+                "3": 323
+            },
+            "11": {
+                "hora": 330,
+                "1": 338,
+                "2": 346,
+                "3": 353
+            },
+            "12": {
+                "hora": 360,
+                "1": 368,
+                "2": 376,
+                "3": 383
+            },
+            "13": {
+                "hora": 390,
+                "1": 398,
+                "2": 406,
+                "3": 413
+            },
+            "14": {
+                "hora": 420,
+                "1": 428,
+                "2": 436,
+                "3": 443
+            },
+            "15": {
+                "hora": 450,
+                "1": 458,
+                "2": 466,
+                "3": 473
+            },
+            "16": {
+                "hora": 480,
+                "1": 488,
+                "2": 496,
+                "3": 503
+            },
+            "17": {
+                "hora": 510,
+                "1": 518,
+                "2": 526,
+                "3": 533
+            },
+            "18": {
+                "hora": 540,
+                "1": 548,
+                "2": 556,
+                "3": 563
+            },
+            "19": {
+                "hora": 570,
+                "1": 578,
+                "2": 586,
+                "3": 593
+            },
+            "20": {
+                "hora": 600,
+                "1": 608,
+                "2": 616,
+                "3": 623
+            },
+            "21": {
+                "hora": 630,
+                "1": 638,
+                "2": 646,
+                "3": 653
+            },
+            "22": {
+                "hora": 660,
+                "1": 668,
+                "2": 676,
+                "3": 683
+            },
+            "23": {
+                "hora": 690,
+                "1": 698,
+                "2": 706,
+                "3": 713
+            },
+            "24": {
+                "hora": 720,
+                "1": 728,
+                "2": 736,
+                "3": 743
+            }
+        }
+    },
+    "promociones": {
+        "AM ADMIN": {
+            "tipo_lectura": "qr",
+            "real_name": "ADMIN",
+            "estatus": true,
+            "tipo_tarifa": true,
+            "inicio_cobro_fraccion": 2,
+            "tarifa_1_fraccion": 0,
+            "tarifa_2_fraccion": 0,
+            "tarifa_3_fraccion": 0,
+            "tarifa_hora": 0
+        },
+        "PR PROVE": {
+            "tipo_lectura": "qr",
+            "real_name": "PRV",
+            "estatus": true,
+            "tipo_tarifa": false,
+            "0": {
+                "hora": 0,
+                "1": 0,
+                "2": 8,
+                "3": 15
+            },
+            "1": {
+                "hora": 22,
+                "1": 30,
+                "2": 38,
+                "3": 45
+            },
+            "2": {
+                "hora": 52,
+                "1": 60,
+                "2": 68,
+                "3": 75
+            },
+            "3": {
+                "hora": 82,
+                "1": 90,
+                "2": 98,
+                "3": 105
+            },
+            "4": {
+                "hora": 112,
+                "1": 120,
+                "2": 128,
+                "3": 135
+            },
+            "5": {
+                "hora": 142,
+                "1": 150,
+                "2": 158,
+                "3": 165
+            },
+            "6": {
+                "hora": 172,
+                "1": 180,
+                "2": 188,
+                "3": 195
+            },
+            "7": {
+                "hora": 202,
+                "1": 210,
+                "2": 218,
+                "3": 225
+            },
+            "8": {
+                "hora": 232,
+                "1": 240,
+                "2": 248,
+                "3": 255
+            },
+            "9": {
+                "hora": 262,
+                "1": 270,
+                "2": 278,
+                "3": 285
+            },
+            "10": {
+                "hora": 292,
+                "1": 300,
+                "2": 308,
+                "3": 315
+            },
+            "11": {
+                "hora": 322,
+                "1": 330,
+                "2": 338,
+                "3": 345
+            },
+            "12": {
+                "hora": 352,
+                "1": 360,
+                "2": 368,
+                "3": 375
+            },
+            "13": {
+                "hora": 382,
+                "1": 390,
+                "2": 398,
+                "3": 405
+            },
+            "14": {
+                "hora": 412,
+                "1": 420,
+                "2": 428,
+                "3": 435
+            },
+            "15": {
+                "hora": 442,
+                "1": 450,
+                "2": 458,
+                "3": 465
+            },
+            "16": {
+                "hora": 472,
+                "1": 480,
+                "2": 488,
+                "3": 495
+            },
+            "17": {
+                "hora": 502,
+                "1": 510,
+                "2": 518,
+                "3": 525
+            },
+            "18": {
+                "hora": 532,
+                "1": 540,
+                "2": 548,
+                "3": 555
+            },
+            "19": {
+                "hora": 562,
+                "1": 570,
+                "2": 578,
+                "3": 585
+            },
+            "20": {
+                "hora": 592,
+                "1": 600,
+                "2": 608,
+                "3": 615
+            },
+            "21": {
+                "hora": 622,
+                "1": 630,
+                "2": 638,
+                "3": 645
+            },
+            "22": {
+                "hora": 652,
+                "1": 660,
+                "2": 668,
+                "3": 675
+            },
+            "23": {
+                "hora": 682,
+                "1": 690,
+                "2": 698,
+                "3": 705
+            },
+            "24": {
+                "hora": 712,
+                "1": 720,
+                "2": 728,
+                "3": 735
+            }
+        },
+        "ST STARB": {
+            "tipo_lectura": "qr",
+            "real_name": "StB",
+            "estatus": true,
+            "tipo_tarifa": true,
+            "inicio_cobro_fraccion": 2,
+            "tarifa_1_fraccion": 6,
+            "tarifa_2_fraccion": 12,
+            "tarifa_3_fraccion": 18,
+            "tarifa_hora": 24
+        },
+        "AT APOTE": {
+            "tipo_lectura": "qr",
+            "real_name": "APOTEK",
+            "estatus": true,
+            "tipo_tarifa": true,
+            "inicio_cobro_fraccion": 2,
+            "tarifa_1_fraccion": 6,
+            "tarifa_2_fraccion": 12,
+            "tarifa_3_fraccion": 18,
+            "tarifa_hora": 24
+        },
+        "SS SHAKE": {
+            "tipo_lectura": "qr",
+            "real_name": "SHAKE",
+            "estatus": true,
+            "tipo_tarifa": true,
+            "inicio_cobro_fraccion": 2,
+            "tarifa_1_fraccion": 6,
+            "tarifa_2_fraccion": 12,
+            "tarifa_3_fraccion": 18,
+            "tarifa_hora": 24
+        },
+        "SG SONOR": {
+            "tipo_lectura": "qr",
+            "real_name": "SNR",
+            "estatus": true,
+            "tipo_tarifa": false,
+            "0": {
+                "hora": 60,
+                "1": 60,
+                "2": 60,
+                "3": 60
+            },
+            "1": {
+                "hora": 60,
+                "1": 60,
+                "2": 60,
+                "3": 60
+            },
+            "2": {
+                "hora": 60,
+                "1": 60,
+                "2": 60,
+                "3": 60
+            },
+            "3": {
+                "hora": 60,
+                "1": 90,
+                "2": 90,
+                "3": 90
+            },
+            "4": {
+                "hora": 90,
+                "1": 90,
+                "2": 90,
+                "3": 90
+            },
+            "5": {
+                "hora": 90,
+                "1": 90,
+                "2": 90,
+                "3": 90
+            },
+            "6": {
+                "hora": 90,
+                "1": 90,
+                "2": 90,
+                "3": 90
+            },
+            "7": {
+                "hora": 90,
+                "1": 90,
+                "2": 90,
+                "3": 90
+            },
+            "8": {
+                "hora": 90,
+                "1": 90,
+                "2": 90,
+                "3": 90
+            },
+            "9": {
+                "hora": 90,
+                "1": 98,
+                "2": 106,
+                "3": 113
+            },
+            "10": {
+                "hora": 120,
+                "1": 128,
+                "2": 136,
+                "3": 143
+            },
+            "11": {
+                "hora": 150,
+                "1": 158,
+                "2": 166,
+                "3": 173
+            },
+            "12": {
+                "hora": 180,
+                "1": 188,
+                "2": 196,
+                "3": 203
+            },
+            "13": {
+                "hora": 210,
+                "1": 218,
+                "2": 226,
+                "3": 233
+            },
+            "14": {
+                "hora": 240,
+                "1": 248,
+                "2": 256,
+                "3": 263
+            },
+            "15": {
+                "hora": 270,
+                "1": 278,
+                "2": 286,
+                "3": 293
+            },
+            "16": {
+                "hora": 300,
+                "1": 308,
+                "2": 316,
+                "3": 323
+            },
+            "17": {
+                "hora": 330,
+                "1": 338,
+                "2": 346,
+                "3": 353
+            },
+            "18": {
+                "hora": 360,
+                "1": 368,
+                "2": 376,
+                "3": 383
+            },
+            "19": {
+                "hora": 390,
+                "1": 398,
+                "2": 406,
+                "3": 413
+            },
+            "20": {
+                "hora": 420,
+                "1": 428,
+                "2": 436,
+                "3": 443
+            },
+            "21": {
+                "hora": 450,
+                "1": 458,
+                "2": 466,
+                "3": 473
+            },
+            "22": {
+                "hora": 480,
+                "1": 488,
+                "2": 496,
+                "3": 503
+            },
+            "23": {
+                "hora": 510,
+                "1": 518,
+                "2": 526,
+                "3": 533
+            },
+            "24": {
+                "hora": 540,
+                "1": 548,
+                "2": 556,
+                "3": 563
+            }
+        }
+    },
+    "funcionamiento_interno": {
+        "panel_configuracion": {
+            "usuario": "admin",
+            "contraseña": "LwbDZRgOoFZ+NRBoHo6H3g==",
+            "iv": "5470c7b9ee19098c7839029b2ff31e83"
+        },
+        "panel_usuarios": {
+            "usuario": "admin",
+            "contraseña": "LwbDZRgOoFZ+NRBoHo6H3g==",
+            "iv": "5470c7b9ee19098c7839029b2ff31e83"
+        },
+        "db": {
+            "usuario": "Aurelio",
+            "password": "N4po2qk7fdNzQCOlgJJEgw==",
+            "iv": "d7bdfb0f72c3f56cbb53ad2c3a8df5a9",
+            "host": "localhost",
+            "db": "Parqueadero1"
+        }
+    }
+}
